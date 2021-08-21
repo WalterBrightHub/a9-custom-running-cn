@@ -1,24 +1,33 @@
-# a9-custom-running-cn
+# A9国服自定义地图跑法合集
 
-## Project setup
-```
-npm install
-```
+## 跑法源码
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+/src/data/my_map.js
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 功能介绍
 
-### Lints and fixes files
-```
-npm run lint
-```
++ 提供作者编写的自定义跑法，满足国服各种奇奇怪怪的跑图需求。
++ 用人类可读的方式阅读跑法。（然而并没有什么用用）
++ 选中跑法并粘贴至剪贴板，后续操作请自行解决~
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 跑法注释
+
++ "e":完美氮气
++ "b":刹车停气
++ "w":双喷
++ "q":360
++ "s":切气
++ 1：右滑选路一次并按一次氮气
++ 2：右滑选路两次并按一次氮气
++ 3: 右滑选路三次并按一次氮气
++ -1: 左滑选路一次并按一次氮气
++ -2: 左滑选路两次并按一次氮气
++ -3: 左滑选路三次并按一次氮气
++ 10:按住漂移 1 秒，漂移结束后右滑选路一次并双喷加速
++ 23: 按住漂移 2.3 秒，漂移结束后右滑选路一次并双喷加速
+...
++ 105: 按住漂移 10.5 秒，漂移结束后右滑选路一次并双喷加速(正整数即可，上不封顶)
++ -10:按住漂移 1 秒，漂移结束后左滑选路一次并双喷加速
++ -23: 按住漂移 2.3 秒，漂移结束后左滑选路一次并双喷加速
+...
++ -105: 按住漂移 10.5 秒，漂移结束后左滑选路一次并双喷加速(负整数即可，下不封顶)
