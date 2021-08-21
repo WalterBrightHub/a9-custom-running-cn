@@ -1,5 +1,6 @@
 // vue.config.js
 module.exports = {
+    publicPath:'/ts/',
   chainWebpack: config => {
     config
       .plugin('html')
