@@ -40,6 +40,9 @@
       }}。将会导致跑法覆盖！建议只保留一个同名地图。
     </div>
 
+    <div class="selected-map-name-list" v-else-if="mapNameSelected.length===0">
+      你还没有选择跑法。
+    </div>
     <div class="selected-map-name-list" v-else>
       已选择的跑法：{{ mapNameSelected | showArray }}。
     </div>
